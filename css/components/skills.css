@@ -19,10 +19,6 @@
     margin: 0 auto 8rem;
   }
   
-  .skills .skills__content .box-skills {
-    
-  }
-  
   .skills .skills__content .box-skills h2{
     text-align: center;
     font-size: 2.5rem;
@@ -309,4 +305,21 @@
     100% {
       width: 50%;
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .skills .skills__content .skills_blocks {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .skills .skills__content .box-skills h2{
+      margin: 5rem auto 3rem;
+    }
+
+    .skills .skills__content .description {
+      margin: 0 auto 4rem;
+    }
+  
   }
