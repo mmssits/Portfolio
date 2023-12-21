@@ -1,0 +1,312 @@
+.skills {
+    background-color: var(--light-tertiary-color);
+    scroll-margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skills .skills__content {
+    padding: 4rem 4rem;
+  }
+
+  .skills .skills__content h2{
+    text-align: center;
+    margin: 2rem auto 3.5rem;
+  }
+  
+  .skills .skills__content .description {
+    max-width: 56rem;
+    margin: 0 auto 8rem;
+  }
+  
+  .skills .skills__content .box-skills {
+    
+  }
+  
+  .skills .skills__content .box-skills h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0 auto 3rem;
+  }
+  
+  .skills .skills__content ul li h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+  }
+  
+  .skills .skills__content .skills_blocks {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .skills .skills__content .skills__item .barras-skill {
+    background-color: #ccc;
+    display: block;
+    height: 20px;
+    width: 30vh;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+  }
+
+  .barras-skill span{
+    height: 20px;
+    background: linear-gradient(to right, #043807, #023f05);
+    position: absolute;
+  }
+
+  .html {
+    width: 90%;
+    animation: html 3s;
+  }
+
+  .css {
+    width: 65%;
+    animation: css 3s;
+  }
+  
+  .js {
+    width: 60%;
+    animation: js 3s;
+  }
+
+  .java {
+    width: 70%;
+    animation: java 3s;
+  }
+
+  .csharp {
+    width: 80%;
+    animation: cshap 3s;
+  }
+
+  .advpl {
+    width: 90%;
+    animation: advpl 3s;
+  }
+
+  .python {
+    width: 50%;
+    animation: python 3s;
+  }
+
+  .spring {
+    width: 60%;
+    animation: spring 3s;
+  }
+
+  .react {
+    width: 50%;
+    animation: react 3s;
+  }
+
+  .selenium {
+    width: 90%;
+    animation: selenium 3s;
+  }
+
+  .aspnet {
+    width: 50%;
+    animation: aspnet 3s;
+  }
+
+  .bootstrap {
+    width: 60%;
+    animation: bootstrap 3s;
+  }
+
+  .protheus {
+    width: 90%;
+    animation: protheus 3s;
+  }
+
+  .sap {
+    width: 50%;
+    animation: sap 3s;
+  }
+
+  .git {
+    width: 80%;
+    animation: git 3s;
+  }
+
+  .docker {
+    width: 60%;
+    animation: docker 3s;
+  }
+
+  .powerbi {
+    width: 60%;
+    animation: powerbi 3s;
+  }
+
+  .photoshop {
+    width: 50%;
+    animation: photoshop 3s;
+  }
+
+  @keyframes html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 65%;
+    }
+  }
+
+  @keyframes js {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 65%;
+    }
+  }
+
+  @keyframes java {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+
+  @keyframes csharp {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+
+  @keyframes advpl {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes python {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes spring {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes react {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes selenium {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes aspnet {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes bootstrap {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes protheus {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes sap {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes git {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+
+  @keyframes docker {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes powerbi {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes photoshop {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }

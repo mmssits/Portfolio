@@ -1,0 +1,40 @@
+footer {
+    /*background-color: var(--light-tertiary-color);*/
+  }
+  
+  footer .footer_content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+  }
+  
+  footer .footer_content .footer__contact span {
+    display: block;
+    font-weight: 500;
+  }
+  
+  footer .footer_content ul li {
+    display: inline-block;
+  }
+  
+  footer .footer_content ul a {
+    display: inline-block;
+    padding: 1rem;
+    /*filter: invert(8%) sepia(73%) saturate(542%) hue-rotate(71deg) brightness(93%) contrast(102%);*/
+    filter: invert(7%) sepia(70%) saturate(980%) hue-rotate(79deg) brightness(89%) contrast(101%);
+  }
+
+  footer .footer_content ul a {
+    width: 32px;
+    height: 32px;
+  }
+  
+  footer .footer_content .footer_copyright {
+    font-size: 1.4rem;
+  }
+
+  footer h2.secondary-title.footer {
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+  }
